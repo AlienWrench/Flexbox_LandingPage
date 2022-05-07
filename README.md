@@ -1,2 +1,2 @@
 # Flexbox_LandingPage
-Final project for The Odin Project CSS Foundations flexbox section
+----Final project for The Odin Project CSS Foundations flexbox section----
