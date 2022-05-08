@@ -1,0 +1,90 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url('./.fonts/Roboto-Regular.ttf');
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: RobotoRegular;
+}
+
+.over_header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex: 1 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+    color: gray;
+    font-size: 18px;
+}
+
+.logo {
+    margin-right: auto;
+
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sub_header {
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up_box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    flex:1;
+}
+
+.sign_up {
+    margin-right: auto;
+}
+
+.header, .sub_header {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+.big_text{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.little_text {
+    font-size: 18px;
+}
+
+.placeholder {
+    background-color: blue;
+    min-width: 500px;
+    height: auto;
+    margin-left: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+}
