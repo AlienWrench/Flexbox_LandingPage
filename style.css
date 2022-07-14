@@ -1,13 +1,18 @@
 @font-face {
     font-family: RobotoRegular;
-    src: url('./.fonts/Roboto-Regular.ttf');
+    src: url('.fonts/Roboto-Regular.ttf');
 }
-.body{
+body{
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    font-family: RobotoRegular;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    gap: 40px;
+
+    font-family: RobotoRegular, sans-serif;
 }
 
 .over_header {
@@ -16,10 +21,11 @@
 }
 
 .header {
-    flex: 1 0 auto;
+    flex: 1;
 
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 48px;
 }
 
 ul {
@@ -47,25 +53,25 @@ a {
     flex: 0 1 auto;
     display: flex;
     justify-content: center;
+    gap: 40px;
+    padding-bottom: 48px;
 }
 
 .sign-up_box {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
     flex:1;
 }
 
 .sign_up {
     margin-right: auto;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    font-size: 16px;
 }
-
-.header, .sub_header {
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
 
 .big_text{
     font-size: 48px;
@@ -87,4 +93,10 @@ a {
     align-items: center;
 
     flex: 1;
+}
+
+.info_section {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
 }
