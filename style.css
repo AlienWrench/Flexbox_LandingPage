@@ -7,10 +7,9 @@ body{
     flex-direction: column;
     align-items: center;
 
-    padding-left: 150px;
-    padding-right: 150px;
 
     gap: 40px;
+    margin: 0;
 
     font-family: RobotoRegular, sans-serif;
 }
@@ -18,14 +17,18 @@ body{
 .over_header {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;    
+    padding-left: 150px;
+    padding-right: 150px;
+    width:max-content;
 }
 
 .header {
     flex: 1;
-
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 48px;
+    background-color: #1F2937;
 }
 
 ul {
@@ -38,14 +41,16 @@ ul {
 a {
     text-decoration: none;
 
-    color: gray;
+    color: #E5E7EB;
     font-size: 18px;
 }
 
 .logo {
+    padding-top: 10px;
     margin-right: auto;
 
     font-size: 24px;
+    color:#F9FAF8;
     font-weight: 700;
 }
 
@@ -76,10 +81,12 @@ a {
 .big_text{
     font-size: 48px;
     font-weight: 900;
+    color: #F9FAF8;
 }
 
 .little_text {
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 .placeholder {
@@ -95,8 +102,38 @@ a {
     flex: 1;
 }
 
-.info_section {
+.info_header {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
+}
+
+.info_boxes {
+    display:flex;
+    gap: 80px;
+    flex-wrap: nowrap;
+}
+
+.box1, .box2, .box3, .box4 {
+    border: solid;
+    width: 100px;
+    height: 100px;
+}
+
+.blurb1, .blurb2, .blurb3, .blurb4 {
+    width: 100px;
+}
+
+.container1, .container2, .container3, .container4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quote_space {
+    background-color: #E5E7EB;
+
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
